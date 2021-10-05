@@ -1,0 +1,65 @@
+.martin-pic{
+  width: 150px;
+}
+
+.coni-pic{
+  width: 75px;
+}
+
+.nico-pic{
+  width: 130px;
+}
+
+.tommy-pic{
+  width: 80px;
+}
+
+.people-space{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.description-space h3 {
+  font-size: 1em;
+}
+
+.description-space h4 {
+  font-size: 0.9em;
+}
+
+.description-space h5 {
+  font-size: 0.7em;
+  padding-top: 10px;
+}
+
+.description-space-full{
+  display: flex;
+  align-items: flex-end;
+ 
+}
+
+.pic-space{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.about-title{
+  margin-bottom: 1em;
+}
+
+.full-space{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.about-checklist {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-checklist-check {
+  padding-right: 5px;
+}

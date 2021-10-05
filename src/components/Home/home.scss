@@ -1,0 +1,75 @@
+@use 'src/styles/vars';
+
+.home {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+// Small media : 0px-749px
+@media only screen and (max-width: 699px) {
+
+  // .home-logo-div {}
+
+  .home-logo-image {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .home-accroche {
+    padding-top: 1.5em;
+    font-size: 2.1em;
+    font-weight: 500;
+    color: vars.$global-color-medium;
+  }
+
+  .home-buttons-div {
+    padding-top: 5em;
+  }
+
+}
+
+// Medium media : 700px-949px
+@media only screen and (min-width: 700px) and (max-width: 949px) {
+
+  .home-logo-div {}
+  .home-logo-image {
+    max-width: 55%;
+    height: auto;
+  }
+
+  .home-accroche {
+    padding-top: 1.3em;
+    font-size: 2.1em;
+    font-weight: 500;
+    color: vars.$global-color-medium;
+  }
+
+  .home-buttons-div {
+    padding-top: 6em;
+  }
+
+}
+
+// Large media : +950px
+@media only screen and (min-width: 950px) {
+
+  .home-logo-div {}
+  
+  .home-logo-image {
+    max-width: 35%;
+    height: auto;
+  }
+
+  .home-accroche {
+    padding-top: 1.3em;
+    font-size: 2.1em;
+    font-weight: 500;
+    color: vars.$global-color-medium;
+  }
+
+  .home-buttons-div {
+    padding-top: 6em;
+  }
+
+}

@@ -1,0 +1,125 @@
+@use 'src/styles/vars';
+
+// header {
+//   width: 100%;
+//   height: 80px;
+// }
+
+// Small media : -699px
+@media only screen and (max-width: 699px) {
+
+  header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-color: vars.$global-color-dark;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  // .header-logo-div {}
+
+  .header-logo-image {
+    height: 100%;
+    padding: 10px 0 10px 15px;
+  }
+
+  // .header-logout-div {}
+
+  .header-logout-button {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 17px;
+    background-color: vars.$global-color-dark;
+    border: 0px;
+    background-image: url('../../assets/images/icon-logout-light.png');
+    background-size: cover;
+  }
+
+}
+
+// Medium media : 700px-949px
+@media only screen and (min-width: 700px) and (max-width: 949px) {
+
+  header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    // padding: 15px;
+    background-color: vars.$global-color-dark;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  // .header-logo-div {}
+
+  .header-logo-image {
+    height: 100%;
+    padding: 10px 0 10px 15px;
+  }
+
+  // .header-logout-div {}
+
+  .header-logout-button {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 17px;
+    background-color: vars.$global-color-dark;
+    border: 0px;
+    background-image: url('../../assets/images/icon-logout-light.png');
+    background-size: cover;
+  }
+
+}
+
+// Large media : +950px
+@media only screen and (min-width: 950px) {
+
+  header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    // padding: 15px;
+    background-color: vars.$global-color-dark;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  // .header-logo-div {}
+
+  .header-logo-image {
+    height: 100%;
+    padding: 10px 0 10px 15px;
+  }
+
+  // .header-logout-div {}
+
+  .header-logout-button {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 17px;
+    background-color: vars.$global-color-dark;
+    border: 0px;
+    background-image: url('../../assets/images/icon-logout-light.png');
+    background-size: cover;
+  }
+  
+}

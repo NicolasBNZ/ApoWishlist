@@ -1,0 +1,56 @@
+@use 'src/styles/vars';
+
+.footer {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: vars.$global-color-dark;
+  color: vars.$global-color-light;
+}
+
+.legal {
+  height: 100%;
+  padding: 0 20px 0 20px;
+  height: 100%;
+}
+
+.contact {
+  height: 100vh;
+}
+
+.legal p {
+  text-align: justify;
+}
+
+.legal h2 {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.legal h3 {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.legal h4 {
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.legal h5 {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}

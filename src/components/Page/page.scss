@@ -1,0 +1,14 @@
+@use 'src/styles/vars';
+
+.page {
+  background-color: vars.$global-color-light;
+  height: 100%;
+  width: 95%;
+  padding: 70px 0px 50px 0px;
+  margin: 0 auto;
+ 
+}
+
+.a {
+  background-color: vars.$global-color-medium;
+}

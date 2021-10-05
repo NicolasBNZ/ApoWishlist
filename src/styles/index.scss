@@ -1,0 +1,159 @@
+@use 'reset';
+@use 'vars';
+
+// Elements
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// Titles
+
+h2 {
+  font-family: vars.$titleh2-font;
+  font-size:  vars.$titleh2-size;
+  font-weight: vars.$titleh2-weight;
+  text-align: center;
+}
+
+h3 {
+  font-family: vars.$titleh3-font;
+  font-size:  vars.$titleh3-size;
+  font-weight: vars.$titleh3-weight;
+}
+
+h4 {
+  font-family: vars.$titleh4-font;
+  font-size:  vars.$titleh4-size;
+  font-weight: vars.$titleh4-weight;
+  color: vars.$global-color-dark;
+}
+
+h5 {
+  font-family: vars.$titleh5-font;
+  font-size:  vars.$titleh5-size;
+  font-weight: vars.$titleh5-weight;
+}
+
+// Buttons
+
+.button {
+  background-color: vars.$global-color-dark;
+  border: none;
+  border-radius: 10px;
+  color: vars.$global-color-light;
+  padding: 15px 32px;
+  margin: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.delete {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  font-size: 1.5em;
+  background-color: vars.$global-color-light;
+  border: none;
+  border-radius: 10px;
+  color: vars.$global-color-dark;
+  padding-right: 30px;
+  padding-left: 20px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+// Head (component title and butons)
+
+.head-div {
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:vars.$global-color-medium;
+  margin: -10px 0 25px 0;
+  border-radius: 0px 0px 8px 8px ;
+  // position: fixed;
+}
+
+// .head-title {}
+
+.head-icon-back {
+  padding-left: 8px;
+  font-size: 2em;
+  font-weight: 900;
+  margin-left: -15px;
+  color: vars.$global-color-dark;
+  border: none;
+}
+
+// v1.5 = 1. fixed mobile icon in bottom page
+.head-icon-add-div {
+  // width: 100%;
+  // position: fixed;
+  // z-index: 1000;
+  // bottom: 0px;
+  // padding: 10px;
+  // margin-left: -25px;
+  // display: flex;
+  // justify-content: center;
+}
+
+.head-icon-add {
+  font-size: 3em;
+  padding-right: 2px;
+  color: vars.$global-color-dark;
+  
+  // v1.5 = 2. rounded button
+  // font-size: 5em;
+  // padding: 2px 17px 2px 17px;
+  // border: solid 4px vars.$global-color-dark;
+  // border-radius: 100px;
+  // background-color: vars.$global-color-light;
+  // color: vars.$global-color-dark;
+}
+
+// .head-icon-back {}
+
+// Forms
+
+.form-container {
+  text-align: center;
+}
+
+.form-title {
+  padding: 50px 0 40px 0;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 16rem;
+  height: 3em;
+  margin: 10px auto;
+  padding-left: 1em;
+  border-radius: 8px;
+  color: vars.$global-color-dark;
+}
+
+.textarea {
+  width: 17rem;
+  height: 7em;
+  margin: 10px auto;
+  padding: 1.5em;
+  font-family: 'Montserrat';
+  font-size: 0.9em;
+  color: vars.$global-color-medium;
+  border-radius: 8px;
+}
